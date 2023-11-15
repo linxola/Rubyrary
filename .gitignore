@@ -1,0 +1,10 @@
+# Code editor related folders/files
+.vscode/
+
+# asdf ruby version file
+.tool-versions
+
+# Folders with node modules, temporary files or logs
+node_modules/
+tmp/
+log/
