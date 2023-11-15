@@ -1,12 +1,12 @@
 <% provide :page_title, @book.title %>
 <% currently_at @book.title %>
 
-<section class="py-5">
-    <div class="container px-4 px-lg-5 my-5">
+<section class="py-4">
+    <div class="container px-4 px-lg-5 my-2">
         <div class="row gx-4 gx-lg-5 align-items-center">
             <div class="col-md-6">
                 <% if @book.cover.attached? %>
-                    <%= cl_image_tag @book.cover.key, :width=>600, :height=>700, :crop=>"fill" %>
+                    <%= cl_image_tag @book.cover.key, :width=>600, :height=>700, :crop=>"pad" %>
                 <% end %>            
             </div>
             <div class="col-md-6">
