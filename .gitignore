@@ -4,6 +4,9 @@
 # asdf ruby version file
 .tool-versions
 
+# direnv file with ENV variables
+.envrc
+
 # Folders with node modules, temporary files or logs
 node_modules/
 tmp/
